@@ -1,0 +1,7 @@
+program
+x1,x2,y1,y2,m : integer
+begin
+readln(x1,x2,y1,y2);
+m:= (y2-y1)/(x2-x1);
+writeln(m);
+end

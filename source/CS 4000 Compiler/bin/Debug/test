@@ -1,0 +1,38 @@
+program
+
+arr : array[10, 5]
+
+int, i, j : integer
+
+begin
+
+i := 0;
+
+while i < 10
+do
+	foreach int in arr[i, i]
+	do
+		int := i;
+	od;
+	i := i + 1;
+od;
+
+i := 0;
+
+while i < 10
+do
+	j := 0;
+	while j < 5
+	do
+		if[j < 4]
+		then
+			write(arr[i, j]);
+		else
+			writeln(arr[i, j]);
+		fi;
+		j := j + 1;
+	od;
+	i := i + 1;
+od;
+
+end

@@ -1,0 +1,13 @@
+program
+n,f,i : integer
+begin
+f:=1;
+i:=1;
+read(n);
+while i < n or i=n do
+	 f := f*i;
+	 i := i+1;
+od;
+x:=f;
+write(x);
+end

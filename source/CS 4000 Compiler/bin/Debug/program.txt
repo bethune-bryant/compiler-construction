@@ -1,0 +1,56 @@
+/*
+Testing extreme array sizes.
+*/
+program
+
+x : integer
+
+begin
+
+x := 0;
+
+while[x < 4]
+do
+	with
+	x : array[6, 10, 5]
+	y : array[10, 5]
+	z : array[5]
+	i, counter : integer
+	begin
+	
+	counter := 1;
+	foreach y in x
+	do
+		with 
+		x : array[5]
+		begin
+			foreach x in y
+			do
+				with
+				y : integer
+				begin
+					foreach y in x
+					do
+						y := counter;
+						counter := counter + 1;
+					od;
+				end;
+			od;
+		end;
+	od;
+
+	foreach y in x
+	do
+		foreach z in y
+		do
+			foreach i in z
+			do
+				writeln(i);
+			od;
+		od;
+	od;
+	end;
+	x := x + 1;
+od;
+
+end

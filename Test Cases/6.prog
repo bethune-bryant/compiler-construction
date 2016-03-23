@@ -1,0 +1,14 @@
+program
+n:array[10]
+x, i: integer
+begin
+i:=0;
+while i < 10 do
+	read(n[i]);
+	i:=i+1;
+od;
+
+foreach x in n do
+	 writeln(x);
+od;
+end

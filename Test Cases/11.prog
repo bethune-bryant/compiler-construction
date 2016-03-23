@@ -1,0 +1,15 @@
+program
+x ,y : integer
+begin
+x:=1;
+y:=100;
+with x:integer begin
+	x:=10;
+	writeln(x,y);
+	with x:integer begin
+		x:=20;
+		writeln(x,y);
+	end;
+end;
+writeln(x,y);
+end

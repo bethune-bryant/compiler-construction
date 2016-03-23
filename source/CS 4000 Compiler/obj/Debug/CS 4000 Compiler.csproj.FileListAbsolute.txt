@@ -1,0 +1,9 @@
+C:\Documents and Settings\Bryant Nelson\My Documents\School\Spring '10\CS 4000 Compiler Construction\Projects\CS 4000 Compiler\CS 4000 Compiler\bin\Debug\CS 4000 Compiler.exe
+C:\Documents and Settings\Bryant Nelson\My Documents\School\Spring '10\CS 4000 Compiler Construction\Projects\CS 4000 Compiler\CS 4000 Compiler\bin\Debug\CS 4000 Compiler.pdb
+C:\Documents and Settings\Bryant Nelson\My Documents\School\Spring '10\CS 4000 Compiler Construction\Projects\CS 4000 Compiler\CS 4000 Compiler\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Bryant Nelson\My Documents\School\Spring '10\CS 4000 Compiler Construction\Projects\CS 4000 Compiler\CS 4000 Compiler\obj\Debug\CS 4000 Compiler.exe
+C:\Documents and Settings\Bryant Nelson\My Documents\School\Spring '10\CS 4000 Compiler Construction\Projects\CS 4000 Compiler\CS 4000 Compiler\obj\Debug\CS 4000 Compiler.pdb
+C:\Users\Llano\Dropbox\School\Spring '10\CS 4000 Compiler Construction\Projects\CS 4000 Compiler\CS 4000 Compiler\obj\Debug\CS 4000 Compiler.exe
+C:\Users\Llano\Dropbox\School\Spring '10\CS 4000 Compiler Construction\Projects\CS 4000 Compiler\CS 4000 Compiler\obj\Debug\CS 4000 Compiler.pdb
+C:\Users\bryant\Dropbox\School\Spring '10\CS 4000 Compiler Construction\Projects\CS 4000 Compiler\CS 4000 Compiler\obj\Debug\CS 4000 Compiler.exe
+C:\Users\bryant\Dropbox\School\Spring '10\CS 4000 Compiler Construction\Projects\CS 4000 Compiler\CS 4000 Compiler\obj\Debug\CS 4000 Compiler.pdb

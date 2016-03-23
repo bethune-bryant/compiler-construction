@@ -1,0 +1,83 @@
+program         | 0 | False | RESERVED | {} | -1
+eof             | 1 | False | RESERVED | {} | -1
+begin           | 2 | False | RESERVED | {} | -1
+end             | 3 | False | RESERVED | {} | -1
+array           | 4 | False | RESERVED | {} | -1
+integer         | 5 | False | RESERVED | {} | -1
+not             | 6 | False | RESERVED | {} | -1
+and             | 7 | False | RESERVED | {} | -1
+or              | 8 | False | RESERVED | {} | -1
+read            | 9 | False | RESERVED | {} | -1
+write           | 10 | False | RESERVED | {} | -1
+readln          | 11 | False | RESERVED | {} | -1
+writeln         | 12 | False | RESERVED | {} | -1
+case            | 13 | False | RESERVED | {} | -1
+do              | 14 | False | RESERVED | {} | -1
+while           | 15 | False | RESERVED | {} | -1
+od              | 16 | False | RESERVED | {} | -1
+if              | 17 | False | RESERVED | {} | -1
+then            | 18 | False | RESERVED | {} | -1
+fi              | 19 | False | RESERVED | {} | -1
+else            | 20 | False | RESERVED | {} | -1
+foreach         | 21 | False | RESERVED | {} | -1
+in              | 22 | False | RESERVED | {} | -1
+esac            | 23 | False | RESERVED | {} | -1
+with            | 24 | False | RESERVED | {} | -1
+exp             | 25 | False | RESERVED | {} | -1
+;               | 26 | False | RESERVED | {} | -1
+[               | 27 | False | RESERVED | {} | -1
+]               | 28 | False | RESERVED | {} | -1
+,               | 29 | False | RESERVED | {} | -1
++               | 30 | False | RESERVED | {} | -1
+-               | 31 | False | RESERVED | {} | -1
+*               | 32 | False | RESERVED | {} | -1
+/               | 33 | False | RESERVED | {} | -1
+^               | 34 | False | RESERVED | {} | -1
+(               | 35 | False | RESERVED | {} | -1
+)               | 36 | False | RESERVED | {} | -1
+<               | 37 | False | RESERVED | {} | -1
+>               | 38 | False | RESERVED | {} | -1
+:               | 39 | False | RESERVED | {} | -1
+=               | 40 | False | RESERVED | {} | -1
+:=              | 41 | False | RESERVED | {} | -1
+1               | 43 | True | CONSTANT | {} | 0
+0               | 43 | True | CONSTANT | {} | 0
+n               | 42 | False | UnknownForNow | {} | 0
+f               | 42 | False | UnknownForNow | {} | 0
+i               | 42 | False | UnknownForNow | {} | 0
+                | 42 | True | INTEGER | {} | 0
+                | 42 | True | INTEGER | {} | 0
+                | 42 | True | INTEGER | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+---SWAP | 46 | 47 | 0
+SWAP | 45 | 48 | 0
+SWAP | 44 | 49 | 0
+ALLOCATE | 44 | 0 | 0
+ALLOCATE | 45 | 0 | 0
+ALLOCATE | 46 | 0 | 0
+ASSIGNMENT | 42 | 0 | 45
+ASSIGNMENT | 42 | 0 | 46
+READ | 0 | 0 | 44
+ALLOCATE | 50 | 0 | 0
+LESS_THAN | 46 | 44 | 50
+ALLOCATE | 51 | 0 | 0
+EQUAL_TO | 46 | 44 | 51
+ALLOCATE | 52 | 0 | 0
+OR | 50 | 51 | 52
+JUMP_FALSE | 52 | 23 | 0
+ALLOCATE | 53 | 0 | 0
+MULTIPLICATION | 45 | 46 | 53
+ASSIGNMENT | 53 | 0 | 45
+ALLOCATE | 54 | 0 | 0
+ADDITION | 46 | 42 | 54
+ASSIGNMENT | 54 | 0 | 46
+JUMP | 0 | 9 | 0
+WRITE | 45 | 0 | 0
+SWAP | 44 | 49 | 0
+SWAP | 45 | 48 | 0
+SWAP | 46 | 47 | 0
+EXIT | 0 | 0 | 0

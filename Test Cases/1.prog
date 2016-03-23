@@ -1,0 +1,6 @@
+program
+m : integer
+begin
+m:= (40-10)/(9-3);
+writeln(m);
+end

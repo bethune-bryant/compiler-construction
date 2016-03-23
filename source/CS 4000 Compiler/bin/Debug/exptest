@@ -1,0 +1,17 @@
+program
+
+x, y, z, z1, z2: integer
+
+begin
+
+read(x);
+read(y);
+read(z);
+
+z1 := x ^ y ^ z;
+z2 := exp(x, exp(y, z));
+
+writeln(z1);
+writeln(z2);
+
+end

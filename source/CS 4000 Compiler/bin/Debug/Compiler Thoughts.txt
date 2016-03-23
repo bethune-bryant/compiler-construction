@@ -1,0 +1,44 @@
+Compiler Thoughts: Code Counter = 71
+
+-Done--- Runtime Error for 0 ^ -1
+
+-Done--- With statement variables addressed out of scope.
+
+-Done--- Fix the with statement. I'll have to add it in semantics.
+
+-Done--- Add File handling to read and read line;
+
+-Done--- Edit the semantic for assignment to assign for arrays.
+
+-Done--- When accessing arrays, the indexed location should be
+  added to the symbol table as a temporary and then
+  pushed onto the SAS stack.
+
+-Done--- Type of id must be Array if you're indexing it.
+
+-Done--- Size of an array can't be 0.
+
+-Done--- Reverse size in arrays. In Symbol Table.
+
+-Done--- Instead of having to use a different stack for the 
+  case statement I can just put a delimiter on the stack
+  to say when to stop. Since the case will only worry about
+  a Symbol Table index, then I can pick any negative 
+  number to be my delimiter.
+
+-Done--- In the data section, whenever a variable is
+  declared, the semantic should mark it declared
+  in the symbol table. And mark the size of an array
+
+-Done--- For arrays, the size of an array could be stored as
+  a list in the symbol table. To handle multiple deminsional
+  arrays.
+
+-Done--- Allocate temporary variable locations.
+
+-Done--- Need to add a semantic check to read and write to make 
+  sure they are only trying to write an integer or read to an 
+  integer.
+
+-Done--- The read and write arguments are being reversed due to 
+  the SAS.

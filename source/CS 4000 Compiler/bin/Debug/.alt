@@ -1,0 +1,114 @@
+program         | 0 | False | RESERVED | {} | -1
+eof             | 1 | False | RESERVED | {} | -1
+begin           | 2 | False | RESERVED | {} | -1
+end             | 3 | False | RESERVED | {} | -1
+array           | 4 | False | RESERVED | {} | -1
+integer         | 5 | False | RESERVED | {} | -1
+not             | 6 | False | RESERVED | {} | -1
+and             | 7 | False | RESERVED | {} | -1
+or              | 8 | False | RESERVED | {} | -1
+read            | 9 | False | RESERVED | {} | -1
+write           | 10 | False | RESERVED | {} | -1
+readln          | 11 | False | RESERVED | {} | -1
+writeln         | 12 | False | RESERVED | {} | -1
+case            | 13 | False | RESERVED | {} | -1
+do              | 14 | False | RESERVED | {} | -1
+while           | 15 | False | RESERVED | {} | -1
+od              | 16 | False | RESERVED | {} | -1
+if              | 17 | False | RESERVED | {} | -1
+then            | 18 | False | RESERVED | {} | -1
+fi              | 19 | False | RESERVED | {} | -1
+else            | 20 | False | RESERVED | {} | -1
+foreach         | 21 | False | RESERVED | {} | -1
+in              | 22 | False | RESERVED | {} | -1
+esac            | 23 | False | RESERVED | {} | -1
+with            | 24 | False | RESERVED | {} | -1
+exp             | 25 | False | RESERVED | {} | -1
+;               | 26 | False | RESERVED | {} | -1
+[               | 27 | False | RESERVED | {} | -1
+]               | 28 | False | RESERVED | {} | -1
+,               | 29 | False | RESERVED | {} | -1
++               | 30 | False | RESERVED | {} | -1
+-               | 31 | False | RESERVED | {} | -1
+*               | 32 | False | RESERVED | {} | -1
+/               | 33 | False | RESERVED | {} | -1
+^               | 34 | False | RESERVED | {} | -1
+(               | 35 | False | RESERVED | {} | -1
+)               | 36 | False | RESERVED | {} | -1
+<               | 37 | False | RESERVED | {} | -1
+>               | 38 | False | RESERVED | {} | -1
+:               | 39 | False | RESERVED | {} | -1
+=               | 40 | False | RESERVED | {} | -1
+:=              | 41 | False | RESERVED | {} | -1
+1               | 43 | True | CONSTANT | {} | 0
+0               | 43 | True | CONSTANT | {} | 0
+arr             | 42 | False | UnknownForNow | {} | 0
+                | 42 | True | ARRAY | {10,5,} | 0
+10              | 43 | True | CONSTANT | {} | 0
+5               | 43 | True | CONSTANT | {} | 0
+int             | 42 | False | UnknownForNow | {} | 0
+i               | 42 | False | UnknownForNow | {} | 0
+j               | 42 | False | UnknownForNow | {} | 0
+                | 42 | True | INTEGER | {} | 0
+                | 42 | True | INTEGER | {} | 0
+                | 42 | True | INTEGER | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {5,} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+4               | 43 | True | CONSTANT | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {5,} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {5,} | 0
+                | 42 | True | TEMPORARY | {} | 0
+---SWAP | 44 | 45 | 0
+ALLOCATE | 44 | 0 | 0
+SWAP | 50 | 51 | 0
+SWAP | 49 | 52 | 0
+SWAP | 48 | 53 | 0
+ALLOCATE | 48 | 0 | 0
+ALLOCATE | 49 | 0 | 0
+ALLOCATE | 50 | 0 | 0
+ASSIGNMENT | 43 | 0 | 49
+ALLOCATE | 54 | 0 | 0
+LESS_THAN | 49 | 46 | 54
+JUMP_FALSE | 54 | 24 | 0
+OFFSET | 44 | 49 | 55
+ALLOCATE | 57 | 0 | 0
+ALLOCATE | 56 | 5 | 0
+OFFSET | 55 | 43 | 48
+ASSIGNMENT | 49 | 0 | 48
+ADDITION | 57 | 42 | 57
+ALLOCATE | 58 | 0 | 0
+LESS_THAN | 57 | 56 | 58
+JUMP_FALSE | 58 | 23 | 0
+UNCHECKED_OFFSET | 55 | 57 | 48
+JUMP | 0 | 16 | 0
+JUMP | 0 | 9 | 0
+ALLOCATE | 59 | 0 | 0
+LESS_THAN | 49 | 46 | 59
+JUMP_FALSE | 59 | 42 | 0
+ALLOCATE | 60 | 0 | 0
+LESS_THAN | 50 | 47 | 60
+JUMP_FALSE | 60 | 41 | 0
+ALLOCATE | 62 | 0 | 0
+LESS_THAN | 49 | 61 | 62
+JUMP_FALSE | 62 | 36 | 0
+OFFSET | 44 | 49 | 63
+OFFSET | 63 | 50 | 64
+WRITE | 64 | 0 | 0
+JUMP_TRUE | 62 | 40 | 0
+OFFSET | 44 | 49 | 65
+OFFSET | 65 | 50 | 66
+WRITE_LINE | 66 | 0 | 0
+JUMP | 0 | 27 | 0
+JUMP | 0 | 24 | 0
+SWAP | 48 | 53 | 0
+SWAP | 49 | 52 | 0
+SWAP | 50 | 51 | 0
+SWAP | 44 | 45 | 0
+EXIT | 0 | 0 | 0

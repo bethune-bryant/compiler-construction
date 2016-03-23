@@ -1,0 +1,35 @@
+program
+n:array[5,5]
+i,j: integer
+begin
+
+i:=0;
+while i < 5 do
+	j:=0;
+	while j < 5 do
+		readln(n[i,j]);
+		j:=j+1;
+	od;
+i:=i+1;
+od;
+
+i:=0;
+while i < 5 do
+	j:=0;
+	while j < 5 do
+		n[i,j] := exp(n[i,j],2); 
+	j:=j+1;
+	od;
+i:=i+1;
+od;
+
+i:=0;
+while i < 5 do
+	j:=0;
+	while j < 5 do
+		writeln(n[i,j]);
+ 		j:=j+1;
+	od;
+i:=i+1;
+od;
+end

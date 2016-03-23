@@ -1,0 +1,56 @@
+/*
+Testing the foreach and with statements thouroughly.
+*/
+program
+
+x : integer
+
+begin
+
+x := 0;
+
+while[x < 2]
+do
+	with
+	x : array[2, 4, 3]
+	y : array[4, 3]
+	z : array[3]
+	i, counter : integer
+	begin
+	
+	counter := 1;
+	foreach y in x
+	do
+		with 
+		x : array[3]
+		begin
+			foreach x in y
+			do
+				with
+				y : integer
+				begin
+					foreach y in x
+					do
+						y := counter;
+						counter := counter + 1;
+					od;
+				end;
+			od;
+		end;
+	od;
+
+	foreach y in x
+	do
+		foreach z in y
+		do
+			foreach i in z
+			do
+				writeln(i);
+			od;
+		od;
+	od;
+	end;
+	x := x + 1;
+od;
+
+end

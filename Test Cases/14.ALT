@@ -1,0 +1,174 @@
+program         | 0 | False | RESERVED | {} | -1
+eof             | 1 | False | RESERVED | {} | -1
+begin           | 2 | False | RESERVED | {} | -1
+end             | 3 | False | RESERVED | {} | -1
+array           | 4 | False | RESERVED | {} | -1
+integer         | 5 | False | RESERVED | {} | -1
+not             | 6 | False | RESERVED | {} | -1
+and             | 7 | False | RESERVED | {} | -1
+or              | 8 | False | RESERVED | {} | -1
+read            | 9 | False | RESERVED | {} | -1
+write           | 10 | False | RESERVED | {} | -1
+readln          | 11 | False | RESERVED | {} | -1
+writeln         | 12 | False | RESERVED | {} | -1
+case            | 13 | False | RESERVED | {} | -1
+do              | 14 | False | RESERVED | {} | -1
+while           | 15 | False | RESERVED | {} | -1
+od              | 16 | False | RESERVED | {} | -1
+if              | 17 | False | RESERVED | {} | -1
+then            | 18 | False | RESERVED | {} | -1
+fi              | 19 | False | RESERVED | {} | -1
+else            | 20 | False | RESERVED | {} | -1
+foreach         | 21 | False | RESERVED | {} | -1
+in              | 22 | False | RESERVED | {} | -1
+esac            | 23 | False | RESERVED | {} | -1
+with            | 24 | False | RESERVED | {} | -1
+exp             | 25 | False | RESERVED | {} | -1
+;               | 26 | False | RESERVED | {} | -1
+[               | 27 | False | RESERVED | {} | -1
+]               | 28 | False | RESERVED | {} | -1
+,               | 29 | False | RESERVED | {} | -1
++               | 30 | False | RESERVED | {} | -1
+-               | 31 | False | RESERVED | {} | -1
+*               | 32 | False | RESERVED | {} | -1
+/               | 33 | False | RESERVED | {} | -1
+^               | 34 | False | RESERVED | {} | -1
+(               | 35 | False | RESERVED | {} | -1
+)               | 36 | False | RESERVED | {} | -1
+<               | 37 | False | RESERVED | {} | -1
+>               | 38 | False | RESERVED | {} | -1
+:               | 39 | False | RESERVED | {} | -1
+=               | 40 | False | RESERVED | {} | -1
+:=              | 41 | False | RESERVED | {} | -1
+1               | 43 | True | CONSTANT | {} | 0
+0               | 43 | True | CONSTANT | {} | 0
+x               | 42 | False | UnknownForNow | {} | 0
+                | 42 | True | INTEGER | {} | 0
+2               | 43 | True | CONSTANT | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | ARRAY | {2,4,3,} | 0
+4               | 43 | True | CONSTANT | {} | 0
+3               | 43 | True | CONSTANT | {} | 0
+y               | 42 | False | UnknownForNow | {} | 0
+                | 42 | True | ARRAY | {4,3,} | 0
+z               | 42 | False | UnknownForNow | {} | 0
+                | 42 | True | ARRAY | {3,} | 0
+i               | 42 | False | UnknownForNow | {} | 0
+counter         | 42 | False | UnknownForNow | {} | 0
+                | 42 | True | INTEGER | {} | 0
+                | 42 | True | INTEGER | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | ARRAY | {3,} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | INTEGER | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+                | 42 | True | TEMPORARY | {} | 0
+---SWAP | 44 | 45 | 0
+ALLOCATE | 44 | 0 | 0
+ASSIGNMENT | 43 | 0 | 44
+ALLOCATE | 47 | 0 | 0
+LESS_THAN | 44 | 46 | 47
+JUMP_FALSE | 47 | 91 | 0
+SWAP | 44 | 48 | 0
+ALLOCATE | 44 | 0 | 0
+SWAP | 51 | 52 | 0
+ALLOCATE | 51 | 0 | 0
+SWAP | 53 | 54 | 0
+ALLOCATE | 53 | 0 | 0
+SWAP | 56 | 57 | 0
+SWAP | 55 | 58 | 0
+ALLOCATE | 55 | 0 | 0
+ALLOCATE | 56 | 0 | 0
+ASSIGNMENT | 42 | 0 | 56
+ALLOCATE | 60 | 0 | 0
+ALLOCATE | 59 | 2 | 0
+OFFSET | 44 | 43 | 51
+SWAP | 44 | 61 | 0
+ALLOCATE | 44 | 0 | 0
+ALLOCATE | 63 | 0 | 0
+ALLOCATE | 62 | 4 | 0
+OFFSET | 51 | 43 | 44
+SWAP | 51 | 64 | 0
+ALLOCATE | 51 | 0 | 0
+ALLOCATE | 66 | 0 | 0
+ALLOCATE | 65 | 3 | 0
+OFFSET | 44 | 43 | 51
+ASSIGNMENT | 56 | 0 | 51
+ALLOCATE | 67 | 0 | 0
+ADDITION | 56 | 42 | 67
+ASSIGNMENT | 67 | 0 | 56
+ADDITION | 66 | 42 | 66
+ALLOCATE | 68 | 0 | 0
+LESS_THAN | 66 | 65 | 68
+JUMP_FALSE | 68 | 40 | 0
+UNCHECKED_OFFSET | 44 | 66 | 51
+JUMP | 0 | 30 | 0
+SWAP | 51 | 64 | 0
+ADDITION | 63 | 42 | 63
+ALLOCATE | 69 | 0 | 0
+LESS_THAN | 63 | 62 | 69
+JUMP_FALSE | 69 | 47 | 0
+UNCHECKED_OFFSET | 51 | 63 | 44
+JUMP | 0 | 25 | 0
+SWAP | 44 | 61 | 0
+ADDITION | 60 | 42 | 60
+ALLOCATE | 70 | 0 | 0
+LESS_THAN | 60 | 59 | 70
+JUMP_FALSE | 70 | 54 | 0
+UNCHECKED_OFFSET | 44 | 60 | 51
+JUMP | 0 | 20 | 0
+ALLOCATE | 72 | 0 | 0
+ALLOCATE | 71 | 2 | 0
+OFFSET | 44 | 43 | 51
+ALLOCATE | 74 | 0 | 0
+ALLOCATE | 73 | 4 | 0
+OFFSET | 51 | 43 | 53
+ALLOCATE | 76 | 0 | 0
+ALLOCATE | 75 | 3 | 0
+OFFSET | 53 | 43 | 55
+WRITE_LINE | 55 | 0 | 0
+ADDITION | 76 | 42 | 76
+ALLOCATE | 77 | 0 | 0
+LESS_THAN | 76 | 75 | 77
+JUMP_FALSE | 77 | 70 | 0
+UNCHECKED_OFFSET | 53 | 76 | 55
+JUMP | 0 | 63 | 0
+ADDITION | 74 | 42 | 74
+ALLOCATE | 78 | 0 | 0
+LESS_THAN | 74 | 73 | 78
+JUMP_FALSE | 78 | 76 | 0
+UNCHECKED_OFFSET | 51 | 74 | 53
+JUMP | 0 | 60 | 0
+ADDITION | 72 | 42 | 72
+ALLOCATE | 79 | 0 | 0
+LESS_THAN | 72 | 71 | 79
+JUMP_FALSE | 79 | 82 | 0
+UNCHECKED_OFFSET | 44 | 72 | 51
+JUMP | 0 | 57 | 0
+SWAP | 55 | 58 | 0
+SWAP | 56 | 57 | 0
+SWAP | 53 | 54 | 0
+SWAP | 51 | 52 | 0
+SWAP | 44 | 48 | 0
+ALLOCATE | 80 | 0 | 0
+ADDITION | 44 | 42 | 80
+ASSIGNMENT | 80 | 0 | 44
+JUMP | 0 | 3 | 0
+SWAP | 44 | 45 | 0
+EXIT | 0 | 0 | 0

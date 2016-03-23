@@ -1,0 +1,35 @@
+/*
+This is a test program that calculates
+the factorial of a given set of numbers.
+*/
+program
+
+input, fact: integer
+container : array[20]
+
+begin
+with
+
+stop:integer
+
+begin
+
+	read(stop);
+	read(input);
+	while [not([input = stop])]
+	do
+		fact := 1;
+
+		while [input > 0]
+		do
+			fact := fact * input;
+			input := input - 1;
+		od;
+		
+		writeln(fact);
+		read(input);
+	od;
+
+end;
+
+end

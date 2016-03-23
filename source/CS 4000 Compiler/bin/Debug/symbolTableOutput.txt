@@ -1,0 +1,51 @@
+Name: program        	|Token Type: 0	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: eof            	|Token Type: 1	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: begin          	|Token Type: 2	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: end            	|Token Type: 3	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: array          	|Token Type: 4	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: integer        	|Token Type: 5	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: not            	|Token Type: 6	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: and            	|Token Type: 7	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: or             	|Token Type: 8	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: read           	|Token Type: 9	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: write          	|Token Type: 10	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: readln         	|Token Type: 11	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: writeln        	|Token Type: 12	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: case           	|Token Type: 13	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: do             	|Token Type: 14	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: while          	|Token Type: 15	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: od             	|Token Type: 16	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: if             	|Token Type: 17	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: then           	|Token Type: 18	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: fi             	|Token Type: 19	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: else           	|Token Type: 20	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: foreach        	|Token Type: 21	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: in             	|Token Type: 22	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: esac           	|Token Type: 23	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: with           	|Token Type: 24	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: exp            	|Token Type: 25	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: ;              	|Token Type: 26	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: [              	|Token Type: 27	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: ]              	|Token Type: 28	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: ,              	|Token Type: 29	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: +              	|Token Type: 30	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: -              	|Token Type: 31	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: *              	|Token Type: 32	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: /              	|Token Type: 33	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: ^              	|Token Type: 34	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: (              	|Token Type: 35	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: )              	|Token Type: 36	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: <              	|Token Type: 37	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: >              	|Token Type: 38	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: :              	|Token Type: 39	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: =              	|Token Type: 40	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: :=             	|Token Type: 41	|Declared: False	|Type: RESERVED	|Size: 	|Location: -1
+Name: x~0            	|Token Type: 42	|Declared: True	|Type: INTEGER	|Size: 	|Location: 0
+Name: y~0            	|Token Type: 42	|Declared: True	|Type: INTEGER	|Size: 	|Location: 0
+Name: z~0            	|Token Type: 42	|Declared: True	|Type: INTEGER	|Size: 	|Location: 0
+Name: a~0            	|Token Type: 42	|Declared: True	|Type: ARRAY	|Size: 2, 	|Location: 0
+Name: 2              	|Token Type: 43	|Declared: True	|Type: CONSTANT	|Size: 	|Location: 0
+Name:                	|Token Type: 42	|Declared: True	|Type: TEMPORARY	|Size: 	|Location: 0
+Name:                	|Token Type: 42	|Declared: True	|Type: TEMPORARY	|Size: 	|Location: 0
+Name:                	|Token Type: 42	|Declared: True	|Type: TEMPORARY	|Size: 	|Location: 0
+Name:                	|Token Type: 42	|Declared: True	|Type: TEMPORARY	|Size: 	|Location: 0

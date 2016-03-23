@@ -1,0 +1,31 @@
+program
+n:array[10]
+i,j,t: integer
+begin
+
+i:=0;
+while i < 10 do
+	read(n[i]);
+	i:=i+1;
+od;
+
+i:=0;
+while i < 10 do
+	j:=0;
+	while j < 10  do
+		if n[i] > n[j] then
+			t:=n[i];
+			n[i]:=n[j];
+			n[j]:=t;
+		fi;
+		j:=j+1;
+	od;
+i:=i+1;
+od;
+
+i:=0;
+while i < 10 do
+	writeln(n[i]);
+	i:=i+1;
+od;
+end
