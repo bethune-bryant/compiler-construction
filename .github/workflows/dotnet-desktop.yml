@@ -38,7 +38,7 @@ jobs:
         run: dotnet publish --configuration Release --no-build
 
       - name: Upload artifact (Optional)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: desktop-app
           path: bin/Release/net6.0-windows/publish/  # Adjust path to your publish output
