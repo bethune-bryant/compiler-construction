@@ -16,6 +16,12 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
+      - name: Download .NET 3.5 Developer Pack
+        run: |
+          Invoke-WebRequest -Uri "https://download.microsoft.com/download/1/5/0/150B9C8F-3E0B-4A3A-9C3E-3A3A3A3A3A3A/dotnetfx35.exe" -OutFile "dotnetfx35.exe"
+          Start-Process -FilePath ".\dotnetfx35.exe" -ArgumentList "/q" -Wait
+        shell: powershell
+
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
